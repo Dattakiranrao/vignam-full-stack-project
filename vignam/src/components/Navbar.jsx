@@ -23,7 +23,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  const [clName, setclName] = useState(localStorage.getItem("selectedClass"));
+  const [clName, setclName] = useState(localStorage.getItem("selectedClass") || "");
   useEffect(() => {
     localStorage.setItem("selectedClass", clName);
   });

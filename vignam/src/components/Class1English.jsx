@@ -75,11 +75,11 @@ export default function Class1English() {
         </Backdrop>
       ) : (
         <div className="w-full flex h-[100vh]">
-          <div className="w-[25%] h-[100vh]">
+          <div className="w-[20%] h-[100vh]">
             <Sidebar topics={data.chapters} getHeroState={getHeroState} />
           </div>
           {heroState ? (
-            <div className="w-[75%] h-[100vh]">
+            <div className="w-[80%] h-[100vh]">
               <Hero
                 theory={data.chapters}
                 video={data.videos}

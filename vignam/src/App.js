@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <Navbar clName={""} />
-
       <Routes>
         <Route path="/class1/maths" element={<Class1Maths />} />
         <Route path="/class1/english" element={<Class1English />} />
